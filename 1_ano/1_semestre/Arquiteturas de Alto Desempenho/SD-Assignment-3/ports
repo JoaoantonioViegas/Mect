@@ -1,0 +1,23 @@
+MasterThief         xxxxx
+OrdinaryThief       xxxxx
+Museum              22130
+ConcentrationSite   22131
+ControlSite         22132
+AssaultParty0       22133
+AssaultParty1       22134
+GeneralRepo         22135
+RegisterRemoteObject 22136
+
+
+- SERVER -
+
+Museum              22221 -ws01
+ConcentrationSite   22222 -ws02
+ControlSite         22223 -ws03
+AssaultParty0       22227 -ws07
+AssaultParty1       22225 -ws05
+GeneralRepo         22226 -ws06
+RMI                 22228 -ws08
+
+MasterThief         xxxxx -ws09
+OrdinaryThief       xxxxx -ws10

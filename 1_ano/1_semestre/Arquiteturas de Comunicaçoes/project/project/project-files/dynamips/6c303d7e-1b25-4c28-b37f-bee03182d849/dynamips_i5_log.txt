@@ -1,0 +1,45 @@
+Dec 07 18:13:46.052 HYPERVISOR: Release 0.2.22-amd64/Linux (tag 2022052400)
+Dec 07 18:13:46.052 HYPERVISOR: Started on IP = localhost, TCP port = 39609.
+Dec 07 18:13:46.061 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips 
+Dec 07 18:13:46.062 GENERAL: working_dir=/home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips/2f04ff4f-fc4a-4fea-8552-9c966be801ef 
+Dec 07 18:13:46.062 GENERAL: working_dir=/home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips/2f04ff4f-fc4a-4fea-8552-9c966be801ef
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm create Lisboa 4 c7200 
+Dec 07 18:13:46.062 VM: VM Lisboa created.
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm set_con_tcp_port Lisboa 5003 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: c7200 get_mac_addr Lisboa 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa 0 0 C7200-IO-FE 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm set_disk0 Lisboa 0 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.062 HYPERVISOR: exec_cmd: vm set_idle_pc Lisboa 0x62cc90e4 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm set_ios Lisboa /home/joao/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: c7200 set_mac_addr Lisboa ca04.45b2.0000 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm set_nvram Lisboa 512 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm set_ram Lisboa 512 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm slot_remove_binding Lisboa 0 0 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa 0 0 C7200-IO-2FE 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa 1 0 PA-2FE-TX 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.063 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa 2 0 PA-2FE-TX 
+Dec 07 18:13:46.064 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:46.064 HYPERVISOR: exec_cmd: vm slot_add_binding Lisboa 3 0 PA-2FE-TX 
+Dec 07 18:13:48.847 HYPERVISOR: exec_cmd: nio create_udp udp-f57556fb-49f4-4bc5-831c-1b85bb134e12 10042 127.0.0.1 10043 
+Dec 07 18:13:49.053 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa 0 0 udp-f57556fb-49f4-4bc5-831c-1b85bb134e12 
+Dec 07 18:13:49.054 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:13:49.112 HYPERVISOR: exec_cmd: nio create_udp udp-87f6029e-db01-4127-ad9b-cc150fffe32b 10046 127.0.0.1 10047 
+Dec 07 18:13:49.113 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Lisboa 0 1 udp-87f6029e-db01-4127-ad9b-cc150fffe32b 
+Dec 07 18:13:49.113 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:23:39.502 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:23:39.503 HYPERVISOR: exec_cmd: vm extract_config Lisboa 
+Dec 07 18:23:39.548 HYPERVISOR: exec_cmd: vm get_status Lisboa 
+Dec 07 18:23:39.548 HYPERVISOR: exec_cmd: vm extract_config Lisboa 
+Dec 07 18:23:39.548 HYPERVISOR: exec_cmd: vm delete Lisboa 
+Dec 07 18:23:39.548 VM: VM Lisboa destroyed.
+Dec 07 18:23:39.548 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 07 18:23:39.669 HYPERVISOR: Stopped.
+Dec 07 18:23:39.669 GENERAL: reset done.

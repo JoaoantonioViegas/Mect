@@ -1,0 +1,28 @@
+Heist to the Museum
+71 total canvas
+Control collection site created
+Assault party 0 created
+Assault party 1 created
+Concentration site created
+Museum created
+Master thief created
+Ordinary thief 0 created
+Ordinary thief 1 created
+Ordinary thief 2 created
+Ordinary thief 3 created
+Ordinary thief 4 created
+Ordinary thief 5 created
+Starting the ordinary thieves
+Starting the master thief
+
+
+
+Number of stolen paintings: 71
+Joined ordinary thief 0
+Joined ordinary thief 1
+Joined ordinary thief 2
+Joined ordinary thief 3
+Joined ordinary thief 4
+Joined ordinary thief 5
+Joined master thief
+End of simulation

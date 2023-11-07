@@ -1,0 +1,13 @@
+rm -rf *.zip
+rm -rf */*/*/*.class
+rm -rf */*/*.class
+rm -rf */*.class
+rm -rf dirRMIRegistry/interfaces
+rm -rf dirRegistry/interfaces
+rm -rf dirAssaultParty/interfaces
+rm -rf dirGeneralRepository/interfaces
+rm -rf dirMuseum/interfaces
+rm -rf dirMaster/interfaces
+rm -rf dirThieves/interfaces
+rm -rf dirControlSite/interfaces
+rm -rf dirConcentrationSite/interfaces

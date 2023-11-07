@@ -1,0 +1,51 @@
+Dec 07 18:13:46.023 HYPERVISOR: Release 0.2.22-amd64/Linux (tag 2022052400)
+Dec 07 18:13:46.023 HYPERVISOR: Started on IP = localhost, TCP port = 55461.
+Dec 07 18:13:46.033 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 07 18:13:46.033 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips 
+Dec 07 18:13:46.033 GENERAL: working_dir=/home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips
+Dec 07 18:13:46.033 HYPERVISOR: exec_cmd: hypervisor working_dir /home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips/4712436d-fdc1-4c30-9838-9b617f5eb87b 
+Dec 07 18:13:46.033 GENERAL: working_dir=/home/joao/Documents/Universidade/4ano/AC/project/project-files/dynamips/4712436d-fdc1-4c30-9838-9b617f5eb87b
+Dec 07 18:13:46.033 HYPERVISOR: exec_cmd: vm create Coimbra 3 c7200 
+Dec 07 18:13:46.034 VM: VM Coimbra created.
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: vm set_con_tcp_port Coimbra 5002 
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: c7200 get_mac_addr Coimbra 
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: vm slot_add_binding Coimbra 0 0 C7200-IO-FE 
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: vm set_disk0 Coimbra 0 
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.034 HYPERVISOR: exec_cmd: vm set_idle_pc Coimbra 0x62cc90e4 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm set_ios Coimbra /home/joao/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: c7200 set_mac_addr Coimbra ca03.43e9.0000 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm set_nvram Coimbra 512 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm set_ram Coimbra 512 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm slot_remove_binding Coimbra 0 0 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.035 HYPERVISOR: exec_cmd: vm slot_add_binding Coimbra 0 0 C7200-IO-2FE 
+Dec 07 18:13:46.036 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.036 HYPERVISOR: exec_cmd: vm slot_add_binding Coimbra 1 0 PA-2FE-TX 
+Dec 07 18:13:46.036 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.036 HYPERVISOR: exec_cmd: vm slot_add_binding Coimbra 2 0 PA-2FE-TX 
+Dec 07 18:13:46.036 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:46.036 HYPERVISOR: exec_cmd: vm slot_add_binding Coimbra 3 0 PA-2FE-TX 
+Dec 07 18:13:47.884 HYPERVISOR: exec_cmd: nio create_udp udp-3994e4b7-7dbf-401f-8b1b-620ba2dd883d 10010 127.0.0.1 10011 
+Dec 07 18:13:48.090 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Coimbra 0 0 udp-3994e4b7-7dbf-401f-8b1b-620ba2dd883d 
+Dec 07 18:13:48.091 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:48.142 HYPERVISOR: exec_cmd: nio create_udp udp-5e0c8fe6-ef2a-4a84-bcd7-101181913b47 10014 127.0.0.1 10015 
+Dec 07 18:13:48.143 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Coimbra 0 1 udp-5e0c8fe6-ef2a-4a84-bcd7-101181913b47 
+Dec 07 18:13:48.143 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:48.839 HYPERVISOR: exec_cmd: nio create_udp udp-a42f87dc-7427-4953-938f-71fe66ef8fbd 10040 127.0.0.1 10041 
+Dec 07 18:13:48.840 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Coimbra 1 0 udp-a42f87dc-7427-4953-938f-71fe66ef8fbd 
+Dec 07 18:13:48.840 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:13:49.165 HYPERVISOR: exec_cmd: nio create_udp udp-5d33418e-46ec-4728-ae2f-d7a1900c066c 10050 127.0.0.1 10051 
+Dec 07 18:13:49.166 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Coimbra 1 1 udp-5d33418e-46ec-4728-ae2f-d7a1900c066c 
+Dec 07 18:13:49.166 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:23:39.499 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:23:39.499 HYPERVISOR: exec_cmd: vm extract_config Coimbra 
+Dec 07 18:23:39.593 HYPERVISOR: exec_cmd: vm get_status Coimbra 
+Dec 07 18:23:39.593 HYPERVISOR: exec_cmd: vm extract_config Coimbra 
+Dec 07 18:23:39.593 HYPERVISOR: exec_cmd: vm delete Coimbra 
+Dec 07 18:23:39.593 VM: VM Coimbra destroyed.
+Dec 07 18:23:39.594 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 07 18:23:39.633 HYPERVISOR: Stopped.
+Dec 07 18:23:39.633 GENERAL: reset done.

@@ -1,0 +1,6 @@
+String nameEntryConcentrationSite = "ConcentrationSite";
+String nameEntryControlSite = "ControlSiteStub";
+String nameEntryAssaultParty0 = "AssaultParty0";
+String nameEntryAssaultParty1 = "AssaultParty1";
+String nameEntryGeneralRepo = "GeneralRepository";
+String nameEntryMuseum = "Museum";
